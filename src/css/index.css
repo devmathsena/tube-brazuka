@@ -17,6 +17,8 @@ body {
     font-family: "Roboto", serif;
 }
 
+/* NAVBAR CONTAINER*/
+
 .nav__container {
     display: flex;
     flex-direction: row;
@@ -89,9 +91,31 @@ body {
 .search__button {
     background-color: var(--green-color);
     border: 0;
+    width: .9rem;
+    height: .9rem;
+}
+
+.profile__container {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.notifications__button {
+    background-color: var(--green-color);
+    border: 0;
+    width: .9rem;
+    height: .9rem;
 }
 
 .profile__photo {
     width: 1rem;
     border-radius: 1rem;
+}
+
+/* MENU CONTAINER*/
+
+.menu__container {
+    display: grid;
+
 }
