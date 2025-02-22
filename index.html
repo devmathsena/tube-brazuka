@@ -21,146 +21,158 @@
             <div class="search__container">
                 <input type="text" class="search" name="search" id="search" placeholder="Pesquisar">
                 <button class="search__button">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c19" stroke-width="2">
+                    <svg viewBox="0 0 24 24" width="100%" height="100%" fill="none" stroke="#004c19" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="11" cy="11" r="7"></circle>
                         <line x1="16" y1="16" x2="22" y2="22"></line>
                     </svg>
                 </button>
             </div>
-            <img class="profile__photo" src="./src/img/profile-photo.jpg" alt="foto de perfil">
+            <div class="profile__container">
+                <button class="notifications__button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="none"
+                        stroke="#004c19" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 0 0 2 2z" />
+                        <path d="M18 16v-5a6 6 0 0 0-12 0v5l-2 2h16l-2-2z" />
+                    </svg>
+                </button>
+                <img class="profile__photo" src="./src/img/profile-photo.jpg" alt="foto de perfil">
+            </div>
         </div>
     </nav>
-    <aside>
-        <div class="menu__container">
-            <div class="general__items">
-                <ul>
-                    <li>Início</li>
-                    <li>Shorts</li>
-                    <li>Inscrições</li>
-                    <li>Brazuka Music</li>
-                </ul>
-            </div>
-            <div class="you__items">
-                <ul>
-                    <li>Histórico</li>
-                    <li>Playlists</li>
-                    <li>Seus vídeos</li>
-                    <li>Assistir mais tarde</li>
-                    <li>Vídeos com "Curtiu"</li>
-                    <li>Donwloads</li>
-                    <li>Seus clipes</li>
-                </ul>
-            </div>
-            <main>
-                <div class="categories__container">
+    <div class="grid__container">
+        <aside>
+            <div class="menu__container">
+                <div class="general__items">
                     <ul>
-                        <li>Tudo</li>
-                        <li>Música</li>
-                        <li>Jogos</li>
-                        <li>Podcasts</li>
-                        <li>Ao vivo</li>
-                        <li>Motor</li>
+                        <li>Início</li>
+                        <li>Shorts</li>
+                        <li>Inscrições</li>
+                        <li>Brazuka Music</li>
                     </ul>
                 </div>
-                <div class="recommended__videos__container">
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data"></p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data"></p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data">435 mil visualizações</p>
-                    </div>
+                <div class="you__items">
+                    <ul>
+                        <li>Histórico</li>
+                        <li>Playlists</li>
+                        <li>Seus vídeos</li>
+                        <li>Assistir mais tarde</li>
+                        <li>Vídeos com "Curtiu"</li>
+                        <li>Donwloads</li>
+                        <li>Seus clipes</li>
+                    </ul>
                 </div>
-                <div class="recommended__shorts__container">
-                    <h2>Shorts</h2>
-                    <div>
-                        <img src="" alt="" class="shorts__thumbnail">
-                        <p class="shorts__title">Motorista corre...</p>
-                        <p class="shorts__data">2,6 mi de visualizações</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="shorts__thumbnail">
-                        <p class="shorts__title">Motorista corre...</p>
-                        <p class="shorts__data">2,6 mi de visualizações</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="shorts__thumbnail">
-                        <p class="shorts__title">Motorista corre...</p>
-                        <p class="shorts__data">2,6 mi de visualizações</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="shorts__thumbnail">
-                        <p class="shorts__title">Motorista corre...</p>
-                        <p class="shorts__data">2,6 mi de visualizações</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="shorts__thumbnail">
-                        <p class="shorts__title">Motorista corre...</p>
-                        <p class="shorts__data">2,6 mi de visualizações</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="shorts__thumbnail">
-                        <p class="shorts__title">Motorista corre...</p>
-                        <p class="shorts__data">2,6 mi de visualizações</p>
-                    </div>
+            </div>
+        </aside>
+        <main>
+            <div class="categories__container">
+                <ul>
+                    <li>Tudo</li>
+                    <li>Música</li>
+                    <li>Jogos</li>
+                    <li>Podcasts</li>
+                    <li>Ao vivo</li>
+                    <li>Motor</li>
+                </ul>
+            </div>
+            <div class="recommended__videos__container">
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data"></p>
                 </div>
-
-                <div class="recommended__videos__container">
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data"></p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data"></p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data">435 mil visualizações</p>
-                    </div>
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data"></p>
                 </div>
-
-                <div class="last_news__container">
-                    <h2>Últimas notícias</h2>
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data"></p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data"></p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="video__thumbnail">
-                        <p class="video__title"></p>
-                        <p class="channel__name">Nome do canal</p>
-                        <p class="video__data">435 mil visualizações</p>
-                    </div>
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data">435 mil visualizações</p>
                 </div>
-            </main>
-        </div>
-    </aside>
+            </div>
+            <div class="recommended__shorts__container">
+                <h2>Shorts</h2>
+                <div>
+                    <img src="" alt="" class="shorts__thumbnail">
+                    <p class="shorts__title">Motorista corre...</p>
+                    <p class="shorts__data">2,6 mi de visualizações</p>
+                </div>
+                <div>
+                    <img src="" alt="" class="shorts__thumbnail">
+                    <p class="shorts__title">Motorista corre...</p>
+                    <p class="shorts__data">2,6 mi de visualizações</p>
+                </div>
+                <div>
+                    <img src="" alt="" class="shorts__thumbnail">
+                    <p class="shorts__title">Motorista corre...</p>
+                    <p class="shorts__data">2,6 mi de visualizações</p>
+                </div>
+                <div>
+                    <img src="" alt="" class="shorts__thumbnail">
+                    <p class="shorts__title">Motorista corre...</p>
+                    <p class="shorts__data">2,6 mi de visualizações</p>
+                </div>
+                <div>
+                    <img src="" alt="" class="shorts__thumbnail">
+                    <p class="shorts__title">Motorista corre...</p>
+                    <p class="shorts__data">2,6 mi de visualizações</p>
+                </div>
+                <div>
+                    <img src="" alt="" class="shorts__thumbnail">
+                    <p class="shorts__title">Motorista corre...</p>
+                    <p class="shorts__data">2,6 mi de visualizações</p>
+                </div>
+            </div>
+    
+            <div class="recommended__videos__container">
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data"></p>
+                </div>
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data"></p>
+                </div>
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data">435 mil visualizações</p>
+                </div>
+            </div>
+    
+            <div class="last_news__container">
+                <h2>Últimas notícias</h2>
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data"></p>
+                </div>
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data"></p>
+                </div>
+                <div>
+                    <img src="" alt="" class="video__thumbnail">
+                    <p class="video__title"></p>
+                    <p class="channel__name">Nome do canal</p>
+                    <p class="video__data">435 mil visualizações</p>
+                </div>
+            </div>
+        </main>
+    </div>
     <footer>
         &copy; 2025 @devmathsena
     </footer>

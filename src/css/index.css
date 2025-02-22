@@ -17,6 +17,8 @@ body {
     font-family: "Roboto", serif;
 }
 
+/* NAVBAR CONTAINER*/
+
 .nav__container {
     display: flex;
     flex-direction: row;
@@ -89,9 +91,61 @@ body {
 .search__button {
     background-color: var(--green-color);
     border: 0;
+    width: .9rem;
+    height: .9rem;
+}
+
+.profile__container {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.notifications__button {
+    background-color: var(--green-color);
+    border: 0;
+    width: .9rem;
+    height: .9rem;
 }
 
 .profile__photo {
     width: 1rem;
     border-radius: 1rem;
+}
+
+/* MENU CONTAINER*/
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    padding: 0rem .5rem;
+}
+
+.menu__container {
+    display: flex;
+    flex-direction: column;
+    width: 2rem;
+}
+
+.general__items, .you__items {
+    font-size: .3rem;
+}
+
+.general__items > ul > li, .you__items > ul > li {
+    padding: .2rem .2rem;
+}
+
+.general__items > ul, .you__items > ul, .categories__container > ul {
+    list-style: none;
+}
+
+.categories__container > ul {
+    display: flex;
+    align-items: center;
+    font-size: .4rem;
+}
+
+.categories__container > ul > li {
+    display: inline;
+    padding: 0rem .5rem;
 }
