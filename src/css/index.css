@@ -115,7 +115,25 @@ body {
 
 /* MENU CONTAINER*/
 
-.menu__container {
+.grid__container {
     display: grid;
+    grid-template-columns: 1fr 11fr;
+    padding: .5rem;
+}
 
+.general__items, .you__items {
+    font-size: .4rem;
+    
+}
+
+.general__items > ul, .you__items > ul, .categories__container > ul {
+    list-style: none;
+}
+
+.categories__container > ul {
+    display: flex;
+}
+
+.categories__container > ul > li {
+    display: inline;
 }
