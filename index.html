@@ -5,15 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tube Brazuka</title>
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <nav>
         <div class="nav__container">
-            <a href="#" class="logo">📺 Tube Brazuka</a>
-            <input type="text" name="search" id="search">
-            <button class="search__button"></button>
-            <img src="" alt="foto de perfil">
+            <div class="logo__container">
+                <a href="#" class="logo"><span class="youtube__icon"></span> Tube Brazuka</a>
+            </div>
+            <div class="search__container">
+                <input type="text" class="search" name="search" id="search" placeholder="Pesquisar">
+                <button class="search__button">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#004c19" stroke-width="2">
+                        <circle cx="11" cy="11" r="7"></circle>
+                        <line x1="16" y1="16" x2="22" y2="22"></line>
+                    </svg>
+                </button>
+            </div>
+            <img class="profile__photo" src="./src/img/profile-photo.jpg" alt="foto de perfil">
         </div>
     </nav>
     <aside>

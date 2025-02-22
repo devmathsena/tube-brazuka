@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --yellow-color: #ffdf00;
+    --white-color: #ffffff;
+    --green-color: #001106;
+    --light-green-color: #004c19;
+}
+
+body {
+    background-color: var(--green-color);
+    color: var(--yellow-color);
+    font-family: "Roboto", serif;
+}
+
+.nav__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: .8rem;
+    padding: .5rem;
+}
+
+.logo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--yellow-color);
+    font-size: .6rem;
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+}
+
+.youtube__icon {
+    display: inline-block;
+    width: 1rem;
+    height: 0.75rem;
+    background-color: var(--light-green-color);
+    position: relative;
+    border-radius: 0.2rem;
+}
+
+.youtube__icon::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 0.4rem solid var(--yellow-color);
+    border-top: 0.25rem solid transparent;
+    border-bottom: 0.25rem solid transparent;
+    transform: translate(-50%, -50%);
+}
+
+.search__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.search {
+    width: 12rem;
+    height: 1rem;
+    border: 1px solid var(--light-green-color);
+    border-radius: 2rem;
+    background-color: var(--green-color);
+    line-height: 1rem;
+}
+
+.search::placeholder {
+    color: var(--light-green-color);
+    padding-left: .5rem;
+    font-size: .5rem;
+}
+
+.search__button {
+    background-color: var(--green-color);
+    border: 0;
+}
+
+.profile__photo {
+    width: 1rem;
+    border-radius: 1rem;
+}
