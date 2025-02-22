@@ -1,4 +1,4 @@
-# 🟢🟡 Tube Brazuka - Grid Layout & Flexbox
+# 🟢▶️🟡 Tube Brazuka - Grid Layout & Flexbox
 
 Um projeto inspirado no YouTube, trazendo um **visual com cores e estilo brasileiro**, utilizando **CSS Grid Layout** e **Flexbox** para organizar os elementos da página.  
 
