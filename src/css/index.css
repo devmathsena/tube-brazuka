@@ -28,7 +28,7 @@ body {
 .logo {
     text-decoration: none;
     color: var(--yellow-color);
-    font-size: .5rem;
+    font-size: .6rem;
 }
 
 .search__container {
@@ -40,10 +40,11 @@ body {
 
 .search {
     width: 12rem;
+    height: 1rem;
     border: 1px solid var(--light-green-color);
     border-radius: 2rem;
-    height: 1rem;
     background-color: var(--green-color);
+    line-height: 1rem;
 }
 
 .search::placeholder {
