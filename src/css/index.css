@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 :root {
@@ -13,6 +14,7 @@
 body {
     background-color: var(--green-color);
     color: var(--yellow-color);
+    font-family: "Roboto", serif;
 }
 
 .nav__container {
