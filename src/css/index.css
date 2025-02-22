@@ -25,10 +25,41 @@ body {
     padding: .5rem;
 }
 
+.logo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
     text-decoration: none;
     color: var(--yellow-color);
     font-size: .6rem;
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+}
+
+.youtube__icon {
+    display: inline-block;
+    width: 1rem;
+    height: 0.75rem;
+    background-color: var(--light-green-color);
+    position: relative;
+    border-radius: 0.2rem;
+}
+
+.youtube__icon::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 0.4rem solid var(--yellow-color);
+    border-top: 0.25rem solid transparent;
+    border-bottom: 0.25rem solid transparent;
+    transform: translate(-50%, -50%);
 }
 
 .search__container {
@@ -62,4 +93,3 @@ body {
     width: 1rem;
     border-radius: 1rem;
 }
-
