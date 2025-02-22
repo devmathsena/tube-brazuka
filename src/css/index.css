@@ -6,7 +6,7 @@
 :root {
     --yellow-color: #ffdf00;
     --white-color: #ffffff;
-    --green-color: #001c0a;
+    --green-color: #001106;
     --light-green-color: #004c19;
 }
 
@@ -21,22 +21,35 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 1rem;
+    gap: .8rem;
     padding: .5rem;
 }
 
 .logo {
     text-decoration: none;
     color: var(--yellow-color);
+    font-size: .5rem;
+}
+
+.search__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
 }
 
 .search {
-    width: 30rem;
+    width: 12rem;
     border: 1px solid var(--light-green-color);
     border-radius: 2rem;
-    height: 2rem;
+    height: 1rem;
     background-color: var(--green-color);
+}
+
+.search::placeholder {
     color: var(--light-green-color);
+    padding-left: .5rem;
+    font-size: .5rem;
 }
 
 .search__button {
@@ -45,7 +58,7 @@ body {
 }
 
 .profile__photo {
-    width: 2rem;
-    border-radius: 2rem;
+    width: 1rem;
+    border-radius: 1rem;
 }
 
