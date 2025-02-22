@@ -3,12 +3,49 @@
     padding: 0;
 }
 
+:root {
+    --yellow-color: #ffdf00;
+    --white-color: #ffffff;
+    --green-color: #001c0a;
+    --light-green-color: #004c19;
+}
+
 body {
-    background-color: #001c0a;
-    color: #ffdf00;
+    background-color: var(--green-color);
+    color: var(--yellow-color);
 }
 
 .nav__container {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    padding: .5rem;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--yellow-color);
+}
+
+.search {
+    width: 30rem;
+    border: 1px solid var(--light-green-color);
+    border-radius: 2rem;
+    height: 2rem;
+    background-color: var(--green-color);
+    color: var(--light-green-color);
+}
+
+.search__button {
+    background-color: var(--green-color);
+    border: 0;
+}
+
+.profile__photo {
+    width: 2rem;
+    border-radius: 2rem;
 }
 
