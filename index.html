@@ -24,8 +24,8 @@
                 <div class="search__container">
                     <input type="text" class="search" name="search" id="search" placeholder="Pesquisar">
                     <button class="search__button">
-                        <svg viewBox="0 0 24 24" width="100%" height="100%" fill="none" stroke="#004c19" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
+                        <svg viewBox="0 0 24 24" width="100%" height="100%" fill="none" stroke="#004c19"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="11" cy="11" r="7"></circle>
                             <line x1="16" y1="16" x2="22" y2="22"></line>
                         </svg>
@@ -33,8 +33,9 @@
                 </div>
                 <div class="profile__container">
                     <button class="notifications__button">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="none"
-                            stroke="#004c19" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"
+                            fill="none" stroke="#004c19" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
                             <path d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 0 0 2 2z" />
                             <path d="M18 16v-5a6 6 0 0 0-12 0v5l-2 2h16l-2-2z" />
                         </svg>
@@ -75,25 +76,28 @@
                     <li>Música</li>
                     <li>Jogos</li>
                     <li>Podcasts</li>
-                    <li>Ao vivo</li>
                     <li>Motor</li>
                     <li>Javascript</li>
                     <li>Fullstack</li>
-                    <li>Viagens</li>
                 </ul>
             </div>
             <div class="recommended__videos__container">
                 <div>
                     <img src="./src/img/thumb-video-1.webp" alt="pessoa com teclado na mão" class="video__thumbnail">
-                    <p class="video__title">Melhores Estratégias para Programar!</p>
-                    <p class="channel__name">Serliv</p>
-                    <p class="video__data">8,4 mil visualizações</p>
+                    <div class="video__infos">
+                        <p class="video__title">Melhores Estratégias para Programar!</p>
+                        <p class="channel__name">Serliv</p>
+                        <p class="video__data">8,4 mil visualizações</p>
+                    </div>
                 </div>
                 <div>
-                    <img src="./src/img/thumb-video-2.webp" alt="visão em primeira pessoa dentro do carro" class="video__thumbnail">
-                    <p class="video__title">ROLÊ DE CORVETTE V8 PROCHARGER NA CHUVA!!!</p>
-                    <p class="channel__name">PetrolHead</p>
-                    <p class="video__data">5,1 mil visualizações</p>
+                    <img src="./src/img/thumb-video-2.webp" alt="visão em primeira pessoa dentro do carro"
+                        class="video__thumbnail">
+                    <div class="video__infos">
+                        <p class="video__title">ROLÊ DE CORVETTE V8 PROCHARGER NA CHUVA!!!</p>
+                        <p class="channel__name">PetrolHead</p>
+                        <p class="video__data">5,1 mil visualizações</p>
+                    </div>
                 </div>
             </div>
             <div class="recommended__shorts">
@@ -111,47 +115,66 @@
                     </div>
                     <div>
                         <img src="./src/img/thumb-shorts-3.webp" alt="mulher cuspindo água" class="shorts__thumbnail">
-                        <p class="shorts__title">O gordão da dj caiu mas os melhores são os comentários 😂😂</p>
+                        <p class="shorts__title">O gordão da dj caiu mas os melhores são os comentários...</p>
                         <p class="shorts__data">2,1 mi de visualizações</p>
                     </div>
+                    <div>
+                        <img src="./src/img/thumb-shorts-4.avif" alt="mulher cuspindo água" class="shorts__thumbnail">
+                        <p class="shorts__title">Caike Pro vai ser o próximo Mr. Olympia?</p>
+                        <p class="shorts__data">555 mil visualizações</p>
+                    </div>
                 </div>
-        
+
                 <div class="recommended__videos__container">
                     <div>
                         <img src="./src/img/thumb-video-3.webp" alt="igorfina e cariani" class="video__thumbnail">
-                        <p class="video__title">IGORFINA FALA PELA PRIMEIRA VEZ APÓS COMENTÁRIO DO CARIANI</p>
-                        <p class="channel__name">STORIES DO IGOR GUEDES OFC  "IGORFINA"</p>
-                        <p class="video__data">87 mil visualizações</p>
+                        <div class="video__infos">
+                            <p class="video__title">IGORFINA FALA PELA PRIMEIRA VEZ APÓS COMENTÁRIO DO CARIANI</p>
+                            <p class="channel__name">STORIES DO IGOR GUEDES OFC "IGORFINA"</p>
+                            <p class="video__data">87 mil visualizações</p>
+                        </div>
                     </div>
                     <div>
-                        <img src="./src/img/thumb-video-4.webp" alt="animação com passaros mordendo perna de homem" class="video__thumbnail">
-                        <p class="video__title">Lil Seere - The Emptiness Machine (Chorus Slowed With Mike Shinoda) Song By Linkin Park</p>
-                        <p class="channel__name">Lil Seere</p>
-                        <p class="video__data">255 visualizações</p>
+                        <img src="./src/img/thumb-video-4.webp" alt="animação com passaros mordendo perna de homem"
+                            class="video__thumbnail">
+                        <div class="video__infos">
+                            <p class="video__title">Lil Seere - The Emptiness Machine (Chorus Slowed With Mike Shinoda)
+                                Song
+                                By Linkin Park</p>
+                            <p class="channel__name">Lil Seere</p>
+                            <p class="video__data">255 visualizações</p>
+                        </div>
                     </div>
                 </div>
-                
+
                 <div class="last__news">
                     <h2>Últimas notícias</h2>
                     <div class="last_news__container">
-                    
+
                         <div>
                             <img src="./src/img/thumb-video-5.webp" alt="jornalista de frente" class="video__thumbnail">
-                            <p class="video__title">Delação de Mauro Cid: detalhes sobre as vendas das joias | Jornal da Noite</p>
+                            <div class="video__infos"></div>
+                            <p class="video__title">Delação de Mauro Cid: detalhes sobre as vendas das joias | Jornal da
+                                Noite</p>
                             <p class="channel__name">Band Jornalismo</p>
                             <p class="video__data">401 mil visualizações</p>
                         </div>
-                        <div>
-                            <img src="./src/img/thumb-video-6.webp" alt="jornalista olhando para o lado" class="video__thumbnail">
-                            <p class="video__title">Cid: "Monitoramento de Moraes tinha como objetivo saber se ele se reunia com Mourão"</p>
+                    </div>
+                    <div>
+                        <img src="./src/img/thumb-video-6.webp" alt="jornalista olhando para o lado"
+                            class="video__thumbnail">
+                        <div class="video__infos">
+                            <p class="video__title">Cid: "Monitoramento de Moraes tinha como objetivo saber se ele se
+                                reunia com Mourão"</p>
                             <p class="channel__name">Poder 360</p>
                             <p class="video__data">127 mil visualizações</p>
                         </div>
                     </div>
                 </div>
             </div>
-            
-        </main>
+    </div>
+
+    </main>
     </div>
     <footer>
         &copy; 2025 @devmathsena
