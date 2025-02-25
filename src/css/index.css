@@ -228,7 +228,7 @@ body {
 
 /* MEDIA QUERIES*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
     /* NAVBAR CONTAINER*/
 
@@ -385,4 +385,164 @@ body {
     }
 }
 
-@media (min-width: 1025px) {}
+@media (min-width: 1024px) {
+
+    /* NAV CONTAINER */
+    .nav__container {
+        justify-content: space-between;
+        padding: 1.5rem;
+        margin-bottom: 0.45rem;
+    }
+
+    /* LOGO */
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    /* YOUTUBE ICON */
+    .youtube__icon {
+        width: 2.25rem;
+        height: 1.5rem;
+        border-radius: 0.375rem;
+    }
+
+    .youtube__icon::before {
+        border-left: 0.75rem solid var(--yellow-color);
+        border-top: 0.46875rem solid transparent;
+        border-bottom: 0.46875rem solid transparent;
+    }
+
+    /* SEARCH */
+    .search__container {
+        justify-content: center;
+        align-items: center;
+        gap: 0.1rem;
+        margin-right: 3rem;
+    }
+
+    .search {
+        display: flex;
+        width: 30rem;
+        height: 2rem;
+        border: 1.5px solid var(--light-green-color);
+        border-radius: 3rem;
+        background-color: var(--green-color);
+        line-height: 1.5rem;
+    }
+
+    .search::placeholder {
+        color: var(--light-green-color);
+        padding-left: 0.75rem;
+        font-size: 1rem;
+    }
+
+    /* BUTTONS */
+    .search__button,
+    .notifications__button {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    /* PROFILE PHOTO */
+    .profile__photo {
+        width: 1.8rem;
+        border-radius: 1.8rem;
+    }
+
+    /* MENU CONTAINER */
+    aside {
+        display: block;
+    }
+
+    .grid__container {
+        grid-template-columns: 1fr 11fr;
+        padding: 0rem 0.75rem;
+        gap: 1rem;
+    }
+
+    .menu__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .general__items,
+    .you__items {
+        font-size: 0.85rem;
+    }
+
+    .general__items>ul>li,
+    .you__items>ul>li {
+        padding: .2rem .2rem;
+    }
+
+    .general__items>ul,
+    .you__items>ul,
+    .categories__container>ul {
+        list-style: none;
+    }
+
+    /* CATEGORIES CONTAINER */
+    .categories__container>ul {
+        font-size: 1.25rem;
+    }
+
+    .categories__container>ul>li {
+        padding: 0.15rem 0.3rem;
+        margin: 0rem 0.15rem;
+        border-radius: 0.225rem;
+    }
+
+    /* RECOMMENDED VIDEOS CONTAINER */
+    .recommended__videos__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: .8rem .1rem;
+        column-gap: 1rem;
+        margin: 1rem 0rem;
+    }
+
+    .video__title {
+        font-size: 1rem;
+    }
+
+    .channel__name,
+    .video__data {
+        font-size: .85rem;
+    }
+
+    /* RECOMMENDED SHORTS CONTAINER */
+    .recommended__shorts__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: .6rem;
+    }
+
+    .recommended__shorts__container div:nth-child(3) {
+        display: none;
+    }
+
+    .recommended__shorts>h2 {
+        font-size: 1.25rem;
+        margin-bottom: .4rem;
+    }
+
+    .shorts__title {
+        font-size: 1rem;
+    }
+
+    .shorts__data {
+        font-size: 0.85rem;
+        margin-top: .3rem;
+    }
+
+    /* LAST NEWS CONTAINER */
+    .last_news__container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .last__news>h2 {
+        font-size: 1.25rem;
+    }
+
+
+}
