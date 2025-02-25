@@ -10,7 +10,8 @@ Este projeto foi criado para **praticar Grid Layout** e **Flexbox** e desenvolve
 - **CSS3 (Grid Layout & Flexbox)**  
 
 ## 📸 Prévia  
-🖼️ *Em breve, uma prévia do design!*  
+![Screenshot (6)](https://github.com/user-attachments/assets/3a1a5ba9-4a93-4c2e-9ffa-97fc5cb15042)
+
 
 ## 🚀 Como Executar  
 1. Clone o repositório:  
