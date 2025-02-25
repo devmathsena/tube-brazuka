@@ -184,6 +184,7 @@ aside {
 .channel__name,
 .video__data {
     font-size: .65rem;
+    color: var(--light-yellow-color);
 }
 
 /* RECOMMENDED SHORTS CONTAINER */
@@ -212,6 +213,7 @@ aside {
 .shorts__data {
     font-size: .6rem;
     margin-bottom: .8rem;
+    color: var(--light-yellow-color);
 }
 
 /* LAST NEWS CONTAINER */
