@@ -22,8 +22,8 @@ Este projeto foi criado para **praticar Grid Layout** e **Flexbox** e desenvolve
 
 ## 🔄 Melhorias Futuras  
 - Responsividade completa  
-- Dark mode  
 - Animações interativas  
+- Uso de API para geração do conteúdo
 
 💡 **Sugestões são bem-vindas!**  
 
