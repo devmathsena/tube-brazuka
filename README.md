@@ -21,7 +21,6 @@ Este projeto foi criado para **praticar Grid Layout** e **Flexbox** e desenvolve
 2. Abra o arquivo `index.html` no navegador.  
 
 ## 🔄 Melhorias Futuras  
-- Responsividade completa  
 - Animações interativas  
 - Uso de API para geração do conteúdo
 
