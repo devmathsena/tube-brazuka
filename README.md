@@ -18,7 +18,9 @@ Este projeto foi criado para **praticar Grid Layout** e **Flexbox** e desenvolve
    ```sh
    git clone https://github.com/devmathsena/tube-brazuka.git
    ```
-2. Abra o arquivo `index.html` no navegador.  
+2. Abra o arquivo `index.html` no navegador.
+
+Ou **veja a versão publicada no [GitHub Pages](https://devmathsena.github.io/tube-brazuka/).**
 
 ## 🔄 Melhorias Futuras  
 - Animações interativas  
